@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+  color-scheme: dark;
+}
+.transparent-nav {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  z-index: 10; /* Ensure navbar stays on top */
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff; /* White text for better visibility */
+  text-decoration: none;
+}
+.nav-list {
+  list-style: none;
+  margin: 30px;
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+.nav-list li {
+  margin-left: 100px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff; /* White text for better visibility */
+}
+.contact-section {
+  text-align: center; /* Center the content horizontally */
+  padding: 40px;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: #000; /* Black text color */
+}
+
+.home-container {
+  text-align: center; /* Center the content */
+}
+
+.home-container h2 {
+  margin-bottom: 20px; /* Add some space after the heading */
+}
